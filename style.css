@@ -1,0 +1,69 @@
+/*
+Theme Name: DesignMills
+Theme URI:
+Description: John's a n00b
+Author: n00b
+Version: 1.0
+*/
+html, body, div, span, object, iframe,h1, h2, h3, h4, h5, h6, p, blockquote, pre,abbr, address, cite, code,del, dfn, em, img, ins, kbd, q, samp,small, strong, sub, sup, var,b, i,dl, dt, dd, ol, ul, li,fieldset, form, label, legend,table, caption, tbody, tfoot, thead, tr, th, td,article, aside, dialog, figure, footer, header,hgroup, menu, nav, section,time, mark, audio, video { margin:0; padding:0; border:0; outline:0; font-size:100%; vertical-align:baseline; background:transparent;}
+body {line-height:1; font-size:100%; font-family:Arial,sans-serif; background-color:#fff; color:#333; }
+article, aside, dialog, figure, footer, header,hgroup, nav, section {display:block;}
+nav ul {list-style-type:none;}
+li {list-style-type:none;}
+blockquote, q {quotes:none;}
+blockquote:before, blockquote:after,q:before, q:after {content:'';content:none;}
+a img{border:0px;outline:0px;}
+a {margin:0;padding:0;border:0;font-size:100%;vertical-align:baseline;background:transparent; text-decoration:none; outline:0px; font-style:normal;}
+ins {background-color:#ff9;color:#000;text-decoration:none;}
+mark {background-color:#ff9;color:#000;font-style:italic;}
+del {text-decoration: line-through;}
+abbr[title], dfn[title] {border-bottom:1px dotted #000;cursor:help;}
+table {border-collapse:collapse;border-spacing:0;}
+hr {display:block;height:1px;border:0;border-top:1px solid #cccccc;margin:1em 0;padding:0;}
+input, select {vertical-align:middle; }
+
+body { background-color:#9DA784; padding-top:20px; font-family: Century Gothic,Tahoma,Verdana}
+a, a:visited {color:#2A642A; font-weight:bold;}
+a:hover { color:#70c3e3;}
+
+#wrapper {margin:0 auto; width:996px; border-radius: 5px; position:relative; background: -moz-linear-gradient(left, #d6cfb9, #f0ece0); background: -webkit-gradient(linear, left center, right center, from(#d6cfb9), to(#f0ece0)); -moz-box-shadow: 0 0 5px #888; -webkit-box-shadow: 0 0 5px#888; box-shadow: 0 0 5px #888;}
+
+section { float:right; width:480px; border-radius: 5px; clear:right; margin-right:265px;}
+
+aside {position:absolute; right:0px; top:80px;  background-color:#fff; height:100%; width:235px; padding-left:10px;}
+aside .twtr-hd,
+aside .twtr-ft{display:none;}
+
+nav {float:left; width:225px; padding-left:20px; padding-top:10px;}
+nav h2 {color:#826B20; padding-bottom:5px;}
+nav ul {margin-bottom:20px;}
+nav ul ul {margin:3px 0 3px 10px;}
+nav li{ font-size:0.75em; margin-bottom:3px;}
+nav li a {color:#2A642A; }
+nav li li {font-size:1.0em;}
+
+header { padding:10px; background-color:#a7ccba; border-radius:5px; height:60px;}
+footer {clear:both; height:80px;}
+
+.clearfloat {clear:both;}
+
+article { padding:10px; margin-bottom:30px;}
+article h1,
+article h2 a { color:#333; font-family:Century Gothic,Tahoma,Verdana; }
+article h2 a:hover { border-bottom:1px dashed;}
+article p {font-size:0.75em; line-height:15px; margin-bottom:18px;}
+article img.right {float:right; margin:0 0 10px 10px;}
+article time {font-size:0.75em; margin-bottom:18px; display:block;}
+
+.commentlist li {clear:both; margin-bottom:18px;}
+.commentlist .avatar {display:none;}
+.commentlist cite { font-size:0.75em;}
+.commentlist a { font-size:0.75em;}
+.commentlist p { font-size:0.75em; line-height:15px; margin-bottom:18px;}
+.commentlist span {font-size:0.75em;}
+.commentlist .comment-body {clear:both;}
+.prevnext li {font-size:0.75em;}
+
+#commentform .comment-form-comment label {float:left; display:block; width:100%;}
+#commentform .comment-form-comment textarea { float:left;}
+#commentform .form-allowed-tags {clear:both;}
