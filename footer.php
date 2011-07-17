@@ -1,6 +1,12 @@
-  		</section>
+
+            </section>
         <?php get_sidebar(); ?>
-        </div>
+        <footer>
+  			<p>Copyright &copy; 2005-2010 John Clarke Mills</p>
+            <p>john (at) design mills . com</p>
+  		</footer>
+        <div class="clearfloat"></div>
+    </div>
         <aside id="intro">
             <div class="photo"><img src="/wp-content/themes/personal-blog/images/me-for-san-fran-vic_reasonably_small.jpg" width="128" height="128" alt="John Clarke Mills" /></div>
             <h1>John Clarke Mills</h1>
@@ -44,13 +50,8 @@
             </script>
         </aside>
 
-        <footer>
-  			<p>Copyright &copy; 2005-2010 John Clarke Mills</p>
-            <p>john (at) design mills . com</p>
-  		</footer>
-
   		<?php wp_footer(); ?>
-
+        <div class="clearfloat"></div>
         </div>
         <script src="http://www.google-analytics.com/urchin.js" type="text/javascript">
         </script>

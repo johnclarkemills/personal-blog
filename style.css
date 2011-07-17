@@ -27,14 +27,16 @@ a, a:visited {color:#2A642A; font-weight:bold;}
 a:hover { color:#70c3e3;}
 
 #wrapper {margin:0 auto; width:940px;  background-color:#FFF; -webkit-border-radius: 5px; -moz-border-radius: 5px; border-radius: 5px;position:relative;  -moz-box-shadow: 0 0 5px #888; -webkit-box-shadow: 0 0 5px#888; box-shadow: 0 0 5px #888; margin-bottom:20px;}
-#main {float:left; background: -moz-linear-gradient(left, #d6cfb9, #f0ece0); background: -webkit-gradient(linear, left center, right center, from(#d6cfb9), to(#f0ece0));}
+#main {float:left; background: -moz-linear-gradient(left, #d6cfb9, #f0ece0); background: -webkit-gradient(linear, left center, right center, from(#d6cfb9), to(#f0ece0)); -moz-box-shadow: 7px 0px 7px #666;
+    -webkit-box-shadow: 7px 0px 7px #666;
+    box-shadow: 7px 0px 7px #666;}
 section { float:right; width:460px; border-radius: 5px; clear:right; padding:10px; }
 
 aside { float:left; background-color:#fff; width:330px; padding-left:10px; margin-bottom:20px;}
 aside .twtr-hd,
 aside .twtr-ft{display:none;}
 
-#intro {padding-left:20px; margin-top:15px;}
+#intro {padding-left:20px; margin-top:20px;}
 #intro .photo {float:left; margin-right:10px;}
 #intro p {font-size:0.75em; color:#777777; font:italic 0.875em/18px Georgia;}
 #intro a {color:#0084B4;}
@@ -46,8 +48,8 @@ nav li{ font-size:0.6875em; margin-bottom:3px;}
 nav li a {color:#2A642A; }
 nav li li {font-size:1.0em;}
 
-header { padding:10px; background-color:#a7ccba; height:40px; -webkit-border-top-left-radius: 5px; -webkit-border-top-right-radius: 5px; -moz-border-radius-topleft: 5px; -moz-border-radius-topright: 5px; border-top-left-radius: 5px; border-top-right-radius: 5px;}
-footer {clear:both;background: -moz-linear-gradient(left, #d6cfb9, #f0ece0); background: -webkit-gradient(linear, left center, right center, from(#d6cfb9), to(#f0ece0)); padding:30px 0; width:725px; -webkit-border-bottom-left-radius: 5px; -moz-border-radius-bottomleft: 5px; border-bottom-left-radius: 5px;}
+header { width:570px; padding:10px; background-color:#a7ccba; height:40px; -webkit-border-top-left-radius: 5px; -webkit-border-top-right-radius: 5px; -moz-border-radius-topleft: 5px; -moz-border-radius-topright: 5px; border-top-left-radius: 5px; border-top-right-radius: 5px;}
+footer { width:590px; clear:both; background: -moz-linear-gradient(left, #d6cfb9, #f0ece0); background: -webkit-gradient(linear, left center, right center, from(#d6cfb9), to(#f0ece0)); padding:30px 0; -webkit-border-bottom-left-radius: 5px; -moz-border-radius-bottomleft: 5px; border-bottom-left-radius: 5px;}
 footer p {margin-left:245px; font-size:0.75em; margin-bottom:5px;}
 
 .clearfloat {clear:both;}
