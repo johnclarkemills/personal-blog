@@ -4,13 +4,15 @@
 
 	<?php if (have_posts()) : ?>
 
-		<h2 class="pagetitle">Search Results for &quot;<?php the_search_query(); ?> &quot;</h2>
+		<h1 class="pagetitle">Search Results for &quot;<?php the_search_query(); ?> &quot;</h1>
 
 		<?php while (have_posts()) : the_post(); ?>
 
 			<div <?php post_class() ?>>
-				<h3 id="post-<?php the_ID(); ?>">&bull; <a href="<?php the_permalink() ?>" rel="bookmark" title="Permanent Link to <?php the_title_attribute(); ?>"><?php the_title(); ?></a></h3>
-				<small><?php the_time(get_option('date_format')) ?></small>
+				<h2 id="post-<?php the_ID(); ?>"><a href="<?php the_permalink() ?>" rel="bookmark" title="Permanent Link to <?php the_title_attribute(); ?>"><?php the_title(); ?></a></h2>
+                <small><?php the_time(get_option('date_format')) ?></small>
+                <?php the_content('Read the rest of this entry &raquo;'); ?>
+
 			</div>
 
 		<?php endwhile; ?>
