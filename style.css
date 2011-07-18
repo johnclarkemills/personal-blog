@@ -21,46 +21,65 @@ abbr[title], dfn[title] {border-bottom:1px dotted #000;cursor:help;}
 table {border-collapse:collapse;border-spacing:0;}
 hr {display:block;height:1px;border:0;border-top:1px solid #cccccc;margin:1em 0;padding:0;}
 input, select {vertical-align:middle; }
-
-body { background-color:#9DA784; padding-top:20px; font-family: Century Gothic,Tahoma,Verdana}
+.left {
+  float: left;
+}
+body { background-color:#9DA784; padding-top:20px; font-family: "Helvetica Neue",Arial,Helvetica,'Liberation Sans',FreeSans,sans-serif; }
 a, a:visited {color:#2A642A; font-weight:bold;}
-a:hover { color:#70c3e3;}
+/*a:hover { color:#70c3e3;}*/
 
 #wrapper {margin:0 auto; width:940px;  background-color:#FFF; -webkit-border-radius: 5px; -moz-border-radius: 5px; border-radius: 5px;position:relative;  -moz-box-shadow: 0 0 5px #888; -webkit-box-shadow: 0 0 5px#888; box-shadow: 0 0 5px #888; margin-bottom:20px;}
-#main {float:left; background: -moz-linear-gradient(left, #d6cfb9, #f0ece0); background: -webkit-gradient(linear, left center, right center, from(#d6cfb9), to(#f0ece0)); -moz-box-shadow: 7px 0px 7px #666;
-    -webkit-box-shadow: 7px 0px 7px #666;
-    box-shadow: 7px 0px 7px #666;}
+#main {
+  -webkit-border-top-left-radius: 5px; -moz-border-radius-topleft: 5px;
+  -moz-border-radius-topleft: 5px; -moz-border-radius-bottomleft: 5px;
+  float:left;
+  background: url("images/main-background.gif") repeat-y scroll #EDE7D9;
+  background: -webkit-gradient(linear, left center, right center, from(#d6cfb9), to(#f0ece0)); -moz-box-shadow: 4px 0px 4px #666;
+  -webkit-box-shadow: 7px 0px 7px #666; box-shadow: 7px 0px 7px #666;
+}
 section { float:right; width:460px; border-radius: 5px; clear:right; padding:10px; }
 
-aside { float:left; background-color:#fff; width:330px; padding-left:10px; margin-bottom:20px;}
+aside { position: relative; left: 7px; float:left; width:330px; margin-bottom: 10px; padding-left: 8px;}
 aside .twtr-hd,
 aside .twtr-ft{display:none;}
 
-#intro {padding-left:20px; margin-top:20px;}
+#intro { margin-top:20px; padding-left: 10px; }
 #intro .photo {float:left; margin-right:10px;}
-#intro p {font-size:0.75em; color:#777777; font:italic 0.875em/18px Georgia;}
+#intro p {font-size:0.75em; color:#777777; font:italic 0.85em/18px Georgia;}
 #intro a {color:#0084B4;}
+#intro .photo img{
+  border: 1px solid #DDD;
+}
 nav {float:left; width:100px; padding-left:10px; padding-top:10px;}
-nav h2 {color:#826B20; padding-bottom:5px;}
+nav h2 {color:#826B20; padding-bottom:8px; font-size: 1.2em;}
 nav ul {margin-bottom:20px;}
 nav ul ul {margin:5px 0 5px 5px;}
-nav li{ font-size:0.6875em; margin-bottom:3px;}
+nav li{ font-size:0.65em; margin-bottom: 6px;}
 nav li a {color:#2A642A; }
 nav li li {font-size:1.0em;}
 
-header { width:570px; padding:10px; background-color:#a7ccba; height:40px; -webkit-border-top-left-radius: 5px; -webkit-border-top-right-radius: 5px; -moz-border-radius-topleft: 5px; -moz-border-radius-topright: 5px; border-top-left-radius: 5px; border-top-right-radius: 5px;}
-footer { width:590px; clear:both; background: -moz-linear-gradient(left, #d6cfb9, #f0ece0); background: -webkit-gradient(linear, left center, right center, from(#d6cfb9), to(#f0ece0)); padding:30px 0; -webkit-border-bottom-left-radius: 5px; -moz-border-radius-bottomleft: 5px; border-bottom-left-radius: 5px;}
-footer p {margin-left:245px; font-size:0.75em; margin-bottom:5px;}
+header { border-bottom: 1px dotted #FFFFFF; width:590px; padding:0px; background-color:#a7ccba; height:12px; -webkit-border-top-left-radius: 5px; -moz-border-radius-topleft: 5px; border-top-left-radius: 5px; }
+nav #logo { background: url('images/windmill.png') no-repeat; display: block; height: 75px; width: 65px; padding-bottom: 10px; }
+
+footer { border-top: 1px dotted #FFF; width:590px; clear:both; background: #DAD1B4; padding-top: 10px; height: 40px; -webkit-border-bottom-left-radius: 5px; -moz-border-radius-bottomleft: 5px; border-bottom-left-radius: 5px;}
+footer p { text-align: center; font-size:0.75em; margin-bottom:5px;}
+
+#twitter-follow {
+  padding: 5px 5px 3px 5px;
+  border-bottom: 1px dotted #DDD;
+  border-top: 1px dotted #DDD;
+}
 
 .clearfloat {clear:both;}
 
 article { margin-bottom:30px;}
 article h1,
-article h2 a { color:#333; font-family:Century Gothic,Tahoma,Verdana; }
-article h2 a:hover { border-bottom:1px dashed;}
+article h2 a { color:#333; font-family: "Helvetica Neue",Arial,Helvetica,'Liberation Sans',FreeSans,sans-serif; }
+article h2 a:hover { border-bottom:1px dotted;}
 article p {font-size:0.75em; line-height:15px; margin-bottom:18px;}
 article img.right {float:right; margin:0 0 10px 10px;}
-article time {font-size:0.75em; margin-bottom:18px; display:block;}
+article time {font-size:0.6em; margin-top: 5px; margin-bottom: 10px; display:block;}
+section h2 a, section h2 a:visited {color:#333;}
 
 .commentlist li {clear:both; margin-bottom:18px;}
 .commentlist .avatar {display:none;}
@@ -78,5 +97,15 @@ article time {font-size:0.75em; margin-bottom:18px; display:block;}
 #commentform input {float:left;}
 #commentform label {padding:3px;}
 #searchform label {display:block; margin-bottom:3px;}
-#searchform #s {float:left; display:block; margin-bottom:3px;}
-#searchform #searchsubmit {clear:both; float:left;}
+#searchform #s {float:left; display:block; margin-bottom:3px; width: 100px;}
+#searchform #searchsubmit {clear:both; float:left; display: none;}
+
+#social-networks { padding-top: 10px; }
+#social-networks .icon {
+  width: 32px; height: 32px; display: block; float: left;
+}
+.twitter-icon { background: url("images/twitter_32.png") no-repeat; }
+.linkedin-icon { background: url("images/linkedin_32.png") no-repeat; }
+.flickr-icon { background: url("images/flickr_32.png") no-repeat; }
+.facebook-icon { background: url("images/facebook_32.png") no-repeat; }
+.rss-icon { background: url("images/rss_32.png") no-repeat; }

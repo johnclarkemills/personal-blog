@@ -3,20 +3,30 @@
         <?php get_sidebar(); ?>
         <footer>
   			<p>Copyright &copy; 2005-2010 John Clarke Mills</p>
-            <p>john (at) design mills . com</p>
+            <p><b>john (at) john clarke mills . com</b></p>
   		</footer>
         <div class="clearfloat"></div>
     </div>
         <aside id="intro">
-            <div class="photo"><img src="/wp-content/themes/personal-blog/images/me-for-san-fran-vic_reasonably_small.jpg" width="128" height="128" alt="John Clarke Mills" /></div>
+            <div class="photo"><img src="http://www.gravatar.com/avatar/dd7140aaf81fa3ffb16bd46d00bad8a7?s=100" width="100" height="100" alt="John Clarke Mills" /></div>
             <h1>John Clarke Mills</h1>
             <p>
-                @johnclarkemills San Francisco<br />
-                Director of Engineering and founding engineer at @bbfdirect, loving restorer of http://sanfranvic.com, tinkerer woodworker, mechanic, and burner.<br />
+                <!--<a href="http://twitter.com/johnclarkemills">@johnclarkemills</a><br />-->
+                Director of Engineering and founding engineer at <a href="http://twitter.com/bbfdirect">@bbfdirect</a>, loving restorer of <a href="http://www.sanfranvic.com">San Fran Vic</a>, tinkerer woodworker, mechanic, and burner.<br />
             </p>
-
+			<div id="social-networks">
+				<a class="icon rss-icon" href="http://feeds.feedburner.com/DesignMills" alt="John Clarke Mills RSS Feed"></a>
+				<a class="icon twitter-icon" href="http://twitter.com/johnclarkemills" alt="John Clarke Mills on Twitter"></a>
+				<a class="icon linkedin-icon" href="http://www.linkedin.com/in/johnclarkemills" alt="John Clarke Mills on LinkedIn"></a>
+				<a class="icon facebook-icon" href="http://www.facebook.com/johnclarkemills" alt="John Clarke Mills on Facebook"></a>
+				<a class="icon flickr-icon" href="http://www.flickr.com/people/johnclarkemills" alt="John Clarke Mills on Flickr"></a>
+			</div>
         </aside>
         <aside>
+			<div id="twitter-follow">
+				<a href="http://twitter.com/johnclarkemills" class="twitter-follow-button">Follow @johnclarkemills</a>
+				<script src="http://platform.twitter.com/widgets.js" type="text/javascript"></script>
+			</div>
             <script src="http://widgets.twimg.com/j/2/widget.js"></script>
             <script>
             new TWTR.Widget({
@@ -24,7 +34,7 @@
               type: 'profile',
               rpp: 10,
               interval: 6000,
-              width: 225,
+              width: 325,
               height: 300,
               theme: {
                 shell: {
