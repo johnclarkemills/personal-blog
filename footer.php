@@ -16,7 +16,7 @@
 				loving restorer of <a href="http://www.sanfranvic.com">San Fran Vic</a>, cofounder of the <a href="http://www.theduckpondcrew.com">Duck Pond</a>, tinkerer, and mechanic.<br />
             </p>
 			<div id="social-networks">
-				<a class="icon rss-icon" href="http://feeds.feedburner.com/DesignMills" alt="John Clarke Mills RSS Feed"></a>
+				<a class="icon rss-icon" href="http://feeds.feedburner.com/JohnClarkeMills" alt="John Clarke Mills RSS Feed"></a>
 				<a class="icon twitter-icon" href="http://twitter.com/johnclarkemills" alt="John Clarke Mills on Twitter"></a>
 				<a class="icon linkedin-icon" href="http://www.linkedin.com/in/johnclarkemills" alt="John Clarke Mills on LinkedIn"></a>
 				<a class="icon facebook-icon" href="http://www.facebook.com/johnclarkemills" alt="John Clarke Mills on Facebook"></a>
