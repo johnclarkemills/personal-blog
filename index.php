@@ -10,13 +10,12 @@
 				<time><?php the_time(get_option('date_format')) ?></time>
 
 				<?php the_content('Read the rest of this entry &raquo;'); ?>
+				
+		        <?php wp_link_pages('before=<p>&after=</p>&next_or_number=number&pagelink=page %'); ?>
+
+				<p class="postmetadata"><?php edit_post_link('Edit', '', ' | '); ?>  <?php comments_popup_link('Add a comment', '1 Comment | Add a comment', '% Comments | Add a comment'); ?></p>
 
 				<hr class="clearfix" />
-
-        <?php wp_link_pages('before=<p>&after=</p>&next_or_number=number&pagelink=page %'); ?>
-
-				<p class="postmetadata"><?php edit_post_link('Edit', '', ' | '); ?>  <?php comments_popup_link('Share your thoughts', '1 Comment', '% Comments'); ?></p>
-
 			</article>
 
 		<?php endwhile; ?>
