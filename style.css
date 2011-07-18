@@ -68,6 +68,7 @@ footer p { text-align: center; font-size:0.75em; margin-bottom:5px;}
   padding: 5px 5px 3px 5px;
   border-bottom: 1px dotted #DDD;
   border-top: 1px dotted #DDD;
+  background: #EEE;
 }
 
 .clearfloat {clear:both;}
