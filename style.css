@@ -50,7 +50,7 @@ aside .twtr-ft{display:none;}
 #intro h1 {
   
 }
-nav {float:left; width:100px; padding-left:10px; padding-top:10px; font-weight: 300;}
+nav {float:left; width:100px; padding-left:10px; padding-top:10px; font-weight: 300; height: 750px;}
 nav h2 { color:#826B20; padding-bottom:8px; font-size: 1.1em;}
 nav ul { margin-bottom:20px;}
 nav ul ul { margin:5px 0 5px 5px;}
@@ -58,7 +58,7 @@ nav li{ font-size: 0.7em; margin-bottom: 6px; font-weight: 300;}
 nav li a, nav li a:visited { color:#2A642A; font-weight: 300; font-size:1.1em; }
 nav li li { font-size:1.0em;}
 
-header { border-bottom: 1px dotted #FFFFFF; width:590px; padding:0px; background-color:#a7ccba; height:12px; -webkit-border-top-left-radius: 5px; -moz-border-radius-topleft: 5px; border-top-left-radius: 5px; }
+header { border-bottom: 1px dotted #FFFFFF; width:590px; padding:0px; background-color:#a7ccba; height:16px; -webkit-border-top-left-radius: 5px; -moz-border-radius-topleft: 5px; border-top-left-radius: 5px; }
 nav #logo { background: url('images/windmill.png') no-repeat; display: block; height: 75px; width: 65px; padding-bottom: 10px; }
 
 footer { border-top: 1px dotted #FFF; width:590px; clear:both; background: #DAD1B4; padding-top: 10px; height: 40px; -webkit-border-bottom-left-radius: 5px; -moz-border-radius-bottomleft: 5px; border-bottom-left-radius: 5px;}

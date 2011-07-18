@@ -8,7 +8,11 @@
         <div class="clearfloat"></div>
     </div>
         <aside id="intro">
-            <div class="photo"><img src="http://www.gravatar.com/avatar/dd7140aaf81fa3ffb16bd46d00bad8a7?s=100" width="100" height="100" alt="John Clarke Mills" /></div>
+            <div class="photo">
+				<a href="http://www.gravatar.com/avatar/dd7140aaf81fa3ffb16bd46d00bad8a7?s=1000" target="_blank">
+					<img src="http://www.gravatar.com/avatar/dd7140aaf81fa3ffb16bd46d00bad8a7?s=100" width="100" height="100" alt="John Clarke Mills" />
+				</a>
+			</div>
             <h1>John Clarke Mills</h1>
             <p>
                 <!--<a href="http://twitter.com/johnclarkemills">@johnclarkemills</a><br />-->
