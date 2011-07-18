@@ -30,11 +30,11 @@ a, a:visited {color:#2A642A; font-weight:bold;}
 
 #wrapper {margin:0 auto; width:940px;  background-color:#FFF; -webkit-border-radius: 5px; -moz-border-radius: 5px; border-radius: 5px;position:relative;  -moz-box-shadow: 0 0 5px #888; -webkit-box-shadow: 0 0 5px#888; box-shadow: 0 0 5px #888; margin-bottom:20px;}
 #main {
-  -webkit-border-top-left-radius: 5px; -moz-border-radius-topleft: 5px;
-  -moz-border-radius-topleft: 5px; -moz-border-radius-bottomleft: 5px;
   float:left;
   background: url("images/main-background.gif") repeat-y scroll #EDE7D9;
-  background: -webkit-gradient(linear, left center, right center, from(#d6cfb9), to(#f0ece0)); -moz-box-shadow: 5px 0px 5px #666;
+  -webkit-border-top-left-radius: 5px; -moz-border-radius-topleft: 5px;
+  -moz-border-radius-topleft: 5px; -moz-border-radius-bottomleft: 5px;
+  -moz-box-shadow: 5px 0px 5px #666;
   -webkit-box-shadow: 5px 0px 5px #666; box-shadow: 5px 0px 5px #666;
 }
 section { float:right; width:460px; border-radius: 5px; clear:right; padding:10px; }
