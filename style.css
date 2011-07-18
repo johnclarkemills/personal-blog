@@ -34,8 +34,8 @@ a, a:visited {color:#2A642A; font-weight:bold;}
   -moz-border-radius-topleft: 5px; -moz-border-radius-bottomleft: 5px;
   float:left;
   background: url("images/main-background.gif") repeat-y scroll #EDE7D9;
-  background: -webkit-gradient(linear, left center, right center, from(#d6cfb9), to(#f0ece0)); -moz-box-shadow: 4px 0px 4px #666;
-  -webkit-box-shadow: 7px 0px 7px #666; box-shadow: 7px 0px 7px #666;
+  background: -webkit-gradient(linear, left center, right center, from(#d6cfb9), to(#f0ece0)); -moz-box-shadow: 5px 0px 5px #666;
+  -webkit-box-shadow: 5px 0px 5px #666; box-shadow: 5px 0px 5px #666;
 }
 section { float:right; width:460px; border-radius: 5px; clear:right; padding:10px; }
 
@@ -46,17 +46,17 @@ aside .twtr-ft{display:none;}
 #intro { margin-top:20px; padding-left: 10px; }
 #intro .photo {float:left; margin-right:10px;}
 #intro p {font-size:0.75em; color:#777777; font:italic 0.85em/18px Georgia;}
-#intro a {color:#0084B4;}
+#intro a {color:#0084B4; font-weight: normal; }
 #intro .photo img{
   border: 1px solid #DDD;
 }
-nav {float:left; width:100px; padding-left:10px; padding-top:10px;}
-nav h2 {color:#826B20; padding-bottom:8px; font-size: 1.2em;}
-nav ul {margin-bottom:20px;}
-nav ul ul {margin:5px 0 5px 5px;}
-nav li{ font-size:0.65em; margin-bottom: 6px;}
-nav li a {color:#2A642A; }
-nav li li {font-size:1.0em;}
+nav {float:left; width:100px; padding-left:10px; padding-top:10px; font-weight: 300;}
+nav h2 { color:#826B20; padding-bottom:8px; font-size: 1.1em;}
+nav ul { margin-bottom:20px;}
+nav ul ul { margin:5px 0 5px 5px;}
+nav li{ font-size: 0.7em; margin-bottom: 6px; font-weight: 300;}
+nav li a, nav li a:visited { color:#2A642A; font-weight: 300; font-size:1.1em; }
+nav li li { font-size:1.0em;}
 
 header { border-bottom: 1px dotted #FFFFFF; width:590px; padding:0px; background-color:#a7ccba; height:12px; -webkit-border-top-left-radius: 5px; -moz-border-radius-topleft: 5px; border-top-left-radius: 5px; }
 nav #logo { background: url('images/windmill.png') no-repeat; display: block; height: 75px; width: 65px; padding-bottom: 10px; }
@@ -76,10 +76,12 @@ article { margin-bottom:30px;}
 article h1,
 article h2 a { color:#333; font-family: "Helvetica Neue",Arial,Helvetica,'Liberation Sans',FreeSans,sans-serif; }
 article h2 a:hover { border-bottom:1px dotted;}
-article p {font-size:0.75em; line-height:15px; margin-bottom:18px;}
+article p { font-size:0.8em; line-height:17px; margin-bottom:18px; font-weight: 300;}
 article img.right {float:right; margin:0 0 10px 10px;}
-article time {font-size:0.6em; margin-top: 5px; margin-bottom: 10px; display:block;}
+article time {font-size:0.6em; margin-bottom: 10px; display:block;}
 section h2 a, section h2 a:visited {color:#333;}
+section h2 { margin-bottom: 8px; }
+section h1 { color: #2A642A; margin-bottom: 10px;}
 
 .commentlist li {clear:both; margin-bottom:18px;}
 .commentlist .avatar {display:none;}
@@ -97,7 +99,7 @@ section h2 a, section h2 a:visited {color:#333;}
 #commentform input {float:left;}
 #commentform label {padding:3px;}
 #searchform label {display:block; margin-bottom:3px;}
-#searchform #s {float:left; display:block; margin-bottom:3px; width: 100px;}
+#searchform #s {float:left; display:block; margin-bottom:3px; width: 90px;}
 #searchform #searchsubmit {clear:both; float:left; display: none;}
 
 #social-networks { padding-top: 10px; }

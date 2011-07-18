@@ -12,7 +12,8 @@
             <h1>John Clarke Mills</h1>
             <p>
                 <!--<a href="http://twitter.com/johnclarkemills">@johnclarkemills</a><br />-->
-                Director of Engineering and founding engineer at <a href="http://twitter.com/bbfdirect">@bbfdirect</a>, loving restorer of <a href="http://www.sanfranvic.com">San Fran Vic</a>, tinkerer woodworker, mechanic, and burner.<br />
+                Director of Engineering and founding engineer at <a href="http://twitter.com/bbfdirect">@bbfdirect</a>,
+				loving restorer of <a href="http://www.sanfranvic.com">San Fran Vic</a>, cofounder of the <a href="http://www.theduckpondcrew.com">Duck Pond</a>, tinkerer, and mechanic.<br />
             </p>
 			<div id="social-networks">
 				<a class="icon rss-icon" href="http://feeds.feedburner.com/DesignMills" alt="John Clarke Mills RSS Feed"></a>
