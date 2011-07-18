@@ -48,7 +48,8 @@ aside .twtr-ft{display:none;}
 #intro a {color:#0084B4; font-weight: normal; }
 #intro .photo img { border: 1px solid #DDD; }
 #intro h1 {
-  
+  position: relative;
+  top: -2px;
 }
 nav {float:left; width:100px; padding-left:10px; padding-top:10px; font-weight: 300; height: 750px;}
 nav h2 { color:#826B20; padding-bottom:8px; font-size: 1.1em;}
