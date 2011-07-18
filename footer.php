@@ -12,15 +12,15 @@
             <h1>John Clarke Mills</h1>
             <p>
                 <!--<a href="http://twitter.com/johnclarkemills">@johnclarkemills</a><br />-->
-                Director of Engineering and founding engineer at <a href="http://twitter.com/bbfdirect">@bbfdirect</a>,
-				loving restorer of <a href="http://www.sanfranvic.com">San Fran Vic</a>, cofounder of the <a href="http://www.theduckpondcrew.com">Duck Pond</a>, tinkerer, and mechanic.<br />
+                Director of Engineering and founding engineer at <a target="_blank" href="http://twitter.com/bbfdirect">@bbfdirect</a>,
+				loving restorer of <a target="_blank" href="http://www.sanfranvic.com">San Fran Vic</a>, cofounder of the
+				<a target="_blank" href="http://www.theduckpondcrew.com">Duck Pond</a>, tinkerer, and mechanic.<br />
             </p>
 			<div id="social-networks">
-				<a class="icon rss-icon" href="http://feeds.feedburner.com/JohnClarkeMills" alt="John Clarke Mills RSS Feed"></a>
-				<a class="icon twitter-icon" href="http://twitter.com/johnclarkemills" alt="John Clarke Mills on Twitter"></a>
-				<a class="icon linkedin-icon" href="http://www.linkedin.com/in/johnclarkemills" alt="John Clarke Mills on LinkedIn"></a>
-				<a class="icon facebook-icon" href="http://www.facebook.com/johnclarkemills" alt="John Clarke Mills on Facebook"></a>
-				<a class="icon flickr-icon" href="http://www.flickr.com/people/johnclarkemills" alt="John Clarke Mills on Flickr"></a>
+				<a class="icon twitter-icon" target="_blank" href="http://twitter.com/johnclarkemills" alt="John Clarke Mills on Twitter"></a>
+				<a class="icon linkedin-icon" target="_blank" href="http://www.linkedin.com/in/johnclarkemills" alt="John Clarke Mills on LinkedIn"></a>
+				<a class="icon facebook-icon" target="_blank" href="http://www.facebook.com/johnclarkemills" alt="John Clarke Mills on Facebook"></a>
+				<a class="icon flickr-icon" target="_blank" href="http://www.flickr.com/people/johnclarkemills" alt="John Clarke Mills on Flickr"></a>
 			</div>
         </aside>
         <aside>

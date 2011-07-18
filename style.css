@@ -34,8 +34,7 @@ a, a:visited {color:#2A642A; font-weight:bold;}
   background: url("images/main-background.gif") repeat-y scroll #EDE7D9;
   -webkit-border-top-left-radius: 5px; -moz-border-radius-topleft: 5px;
   -moz-border-radius-topleft: 5px; -moz-border-radius-bottomleft: 5px;
-  -moz-box-shadow: 5px 0px 5px #666;
-  -webkit-box-shadow: 5px 0px 5px #666; box-shadow: 5px 0px 5px #666;
+  -moz-box-shadow: 5px 0px 5px #999; -webkit-box-shadow: 5px 0px 5px #999; box-shadow: 5px 0px 5px #999;
 }
 section { float:right; width:460px; border-radius: 5px; clear:right; padding:10px; }
 
@@ -47,8 +46,9 @@ aside .twtr-ft{display:none;}
 #intro .photo {float:left; margin-right:10px;}
 #intro p {font-size:0.75em; color:#777777; font:italic 0.85em/18px Georgia;}
 #intro a {color:#0084B4; font-weight: normal; }
-#intro .photo img{
-  border: 1px solid #DDD;
+#intro .photo img { border: 1px solid #DDD; }
+#intro h1 {
+  
 }
 nav {float:left; width:100px; padding-left:10px; padding-top:10px; font-weight: 300;}
 nav h2 { color:#826B20; padding-bottom:8px; font-size: 1.1em;}
