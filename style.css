@@ -113,5 +113,6 @@ section h1 { color: #2A642A; margin-bottom: 10px;}
 .flickr-icon { background: url("images/flickr_32.png") no-repeat; }
 .facebook-icon { background: url("images/facebook_32.png") no-repeat; }
 .rss-icon { background: url("images/rss_32.png") no-repeat; }
+.mail-icon { background: url("images/email_32.png") no-repeat; }
 
 .shr-getshr{ visibility: hidden; display: none; font-size: 10px ! important; }

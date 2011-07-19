@@ -25,6 +25,7 @@
 				<a class="icon linkedin-icon" target="_blank" href="http://www.linkedin.com/in/johnclarkemills" alt="John Clarke Mills on LinkedIn"></a>
 				<a class="icon facebook-icon" target="_blank" href="http://www.facebook.com/johnclarkemills" alt="John Clarke Mills on Facebook"></a>
 				<a class="icon flickr-icon" target="_blank" href="http://www.flickr.com/people/johnclarkemills" alt="John Clarke Mills on Flickr"></a>
+				<a class="icon mail-icon" onClick="var mail = 'john'; var addr = 'johnclarkemils.com'; jQuery(this).attr('href', 'mailto:' + mail + '@' + addr);" href="#"></a>
 			</div>
         </aside>
         <aside>
