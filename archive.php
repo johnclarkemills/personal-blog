@@ -28,7 +28,7 @@
 
 				<div>
                     <?php the_content('Read the rest of this entry &raquo;'); ?>
-					<p class="postmetadata"><?php edit_post_link('Edit', '', ' | '); ?></p>
+					<p class="postmetadata"><?php edit_post_link('Edit', '', ' | '); ?>  <?php comments_popup_link('Add a comment', '1 Comment | Add a comment', '% Comments | Add a comment'); ?></p>
 				</div>
 
 			</article>
