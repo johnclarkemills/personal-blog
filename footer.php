@@ -71,7 +71,7 @@
             }).render().setUser('johnclarkemills').start();
             </script>
 	
-			<script type="text/javascript" src="/wp-content/themes/personal-blog/jquery.fixedscroll.js"></script>
+			<script type="text/javascript" src="<?php echo site_url(); ?>/wp-content/themes/personal-blog/jquery.fixedscroll.js"></script>
 			<script>
 				jQuery('#intro').fixedscroll({ container: jQuery('#wrapper') });
 			</script>
