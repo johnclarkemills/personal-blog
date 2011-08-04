@@ -28,6 +28,18 @@ body { background-color:#9DA784; padding-top:20px; font-family: "Helvetica Neue"
 a, a:visited {color:#2A642A; font-weight:bold;}
 /*a:hover { color:#70c3e3;}*/
 
+
+
+.fixed {
+    position: fixed;
+    top: 0;
+}
+#right-bar {
+  position: absolute;
+  left: 595px;
+}
+
+
 #wrapper {margin:0 auto; width:940px;  background-color:#FFF; -webkit-border-radius: 5px; -moz-border-radius: 5px; border-radius: 5px;position:relative;  -moz-box-shadow: 0 0 5px #888; -webkit-box-shadow: 0 0 5px#888; box-shadow: 0 0 5px #888; margin-bottom:20px;}
 #main {
   float:left;
@@ -38,14 +50,23 @@ a, a:visited {color:#2A642A; font-weight:bold;}
 }
 section { float:right; width:460px; border-radius: 5px; clear:right; padding:10px; }
 
-aside { position: relative; left: 7px; float:left; width:330px; margin-bottom: 10px; padding-left: 8px;}
+aside { width:330px; margin-bottom: 10px; padding-left: 8px;}
 aside .twtr-hd,
 aside .twtr-ft{display:none;}
 
+#as-seen-in {
+  display: none;
+  border: 1px dotted #ddd; padding:0px; background-color:#fff; height:100px; margin-top: 10px;
+  -webkit-border-radius: 5px; -moz-border-radius: 5px; border-radius: 5px;
+}
+#as-seen-in .as-seen-in-head {
+  font-family: "Helvetica Neue",Arial,Helvetica,'Liberation Sans',FreeSans,sans-serif;
+  font-weight: 300; padding: 5px; border-bottom: 1px dotted #ddd; background: #F3F3F3;
+}
 #intro { margin-top:20px; padding-left: 10px; }
 #intro .photo {float:left; margin-right:10px;}
-#intro p {font-size:0.75em; color:#777777; font:italic 0.85em/18px Georgia;}
-#intro a {color:#0084B4; font-weight: normal; }
+#intro-text p {font-size:0.75em; color:#777777; font:italic 0.85em/18px Georgia;}
+#intro-text a {color:#0084B4; font-weight: normal; }
 #intro .photo img { border: 1px solid #DDD; }
 #intro h1 {
   position: relative;
@@ -70,6 +91,7 @@ footer p { text-align: center; font-size:0.75em; margin-bottom:5px;}
   border-bottom: 1px dotted #DDD;
   border-top: 1px dotted #DDD;
   background: #EEE;
+  margin-top: 7px;
 }
 
 .clearfloat {clear:both;}
