@@ -2,8 +2,8 @@
             </section>
         <?php get_sidebar(); ?>
         <footer>
-  			<p>Copyright &copy; 2005-2010 John Clarke Mills</p>
-            <p><b>john (at) john clarke mills . com</b></p>
+  			<p>Copyright &copy; 2005-2011 John Clarke Mills</p>
+			<p>Wordpress theme is open source and available on <a href="https://github.com/johnclarkemills/personal-blog" rel="nofollow">github</a>.</p>
   		</footer>
         <div class="clearfloat"></div>
     </div>
