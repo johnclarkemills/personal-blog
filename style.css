@@ -19,7 +19,7 @@ mark {background-color:#ff9;color:#000;font-style:italic;}
 del {text-decoration: line-through;}
 abbr[title], dfn[title] {border-bottom:1px dotted #000;cursor:help;}
 table {border-collapse:collapse;border-spacing:0;}
-hr {display:block;height:1px;border:0;border-top:1px solid #cccccc;margin:1em 0;padding:0;}
+hr {display:block;height:1px;border:0;border-top:1px solid #EDE7D9;margin:1em 0;padding:0;}
 input, select {vertical-align:middle; }
 .left {
   float: left;
@@ -103,9 +103,10 @@ article h2 a:hover { border-bottom:1px dotted;}
 article p { font-size:0.8em; line-height:17px; margin-bottom:18px; font-weight: 300;}
 article img.right {float:right; margin:0 0 10px 10px;}
 article time {font-size:0.6em; margin-bottom: 10px; display:block;}
-section h2 a, section h2 a:visited {color:#333;}
-section h2 { margin-bottom: 8px; }
 section h1 { color: #2A642A; margin-bottom: 10px;}
+section h2 a, section h2 a:visited {color:#333;}
+.post-title a:hover { text-decoration: none; }
+.post-title { border-bottom: 1px dotted #999; margin-bottom: 3px; padding-bottom: 5px;}
 
 .commentlist li {clear:both; margin-bottom:18px;}
 .commentlist .avatar {display:none;}
@@ -115,6 +116,8 @@ section h1 { color: #2A642A; margin-bottom: 10px;}
 .commentlist span {font-size:0.75em;}
 .commentlist .comment-body {clear:both;}
 .prevnext li {font-size:0.75em;}
+.comment-count { float: right; }
+.comment-count { font-size: 0.75em; } 
 
 #commentform .comment-form-comment label {float:left; display:block; width:100%;}
 #commentform .comment-form-comment textarea { float:left;}
@@ -136,5 +139,7 @@ section h1 { color: #2A642A; margin-bottom: 10px;}
 .facebook-icon { background: url("images/facebook_32.png") no-repeat; }
 .rss-icon { background: url("images/rss_32.png") no-repeat; }
 .mail-icon { background: url("images/email_32.png") no-repeat; }
+
+.icon-comments { background: url("images/icon-comments.png") no-repeat; height: 16px; width: 16px; float: left; padding-right: 5px; }
 
 .shr-getshr{ visibility: hidden; display: none; font-size: 10px ! important; }
