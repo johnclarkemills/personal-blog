@@ -105,7 +105,7 @@ article time { color: #666; font-size:0.6em; margin-bottom: 10px; display:block;
 section h1 { color: #2A642A; margin-bottom: 10px;}
 section h2 a, section h2 a:visited {color:#333;}
 section h2 { margin-bottom: 7px; }
-.post-title { border-bottom: 1px dotted #999; margin-bottom: 3px; padding-bottom: 3px;}
+.post-title { border-bottom: 1px dotted #999; margin-bottom: 2px; padding-bottom: 4px;}
 
 .commentlist li {clear:both; margin-bottom:18px;}
 .commentlist .avatar {display:none;}
@@ -115,8 +115,8 @@ section h2 { margin-bottom: 7px; }
 .commentlist span {font-size:0.75em;}
 .commentlist .comment-body {clear:both;}
 .prevnext li {font-size:0.75em;}
-.comment-count { float: right; }
-.comment-count { font-size: 0.75em; } 
+.comment-count { float: right; font-size: 0.75em; }
+.comment-count a { font-weight: normal; } 
 
 #commentform .comment-form-comment label {float:left; display:block; width:100%;}
 #commentform .comment-form-comment textarea { float:left;}
