@@ -92,7 +92,7 @@ article img.right {float:right; margin:0 0 10px 10px;}
 article time { color: #666; font-size:0.6em; margin-bottom: 10px; display:block;}
 section h1 { color: #2A642A; margin-bottom: 10px;}
 section h2 a, section h2 a:visited {color:#333;}
-section h2 { margin-bottom: 7px; }
+section h2 { margin-bottom: 9px; }
 .post-title { border-bottom: 1px dotted #999; margin-bottom: 2px; padding-bottom: 4px;}
 
 .commentlist li {clear:both; margin-bottom:18px;}
