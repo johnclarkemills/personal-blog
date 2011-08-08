@@ -31,8 +31,14 @@
 				<time><?php the_time(get_option('date_format')) ?></time>
 				
 				<div>
-                    <?php the_content('Read the rest of this entry &raquo;'); ?>
-					<p class="postmetadata"><?php edit_post_link('Edit', '', ' | '); ?>  <?php comments_popup_link('Add a comment', '1 Comment | Add a comment', '% Comments | Add a comment'); ?></p>
+				  <?php the_content('Read the rest of this entry &raquo;'); ?>
+				  
+				  <?php if(function_exists('selfserv_shareaholic')) { selfserv_shareaholic(); } ?>
+				  <div class="postmetadata">
+					  <span class="icon-comments"></span>
+					  <?php edit_post_link('Edit', '', ' | '); ?>  <?php comments_popup_link('Add a comment', '1 Comment | Add a comment', '% Comments | Add a comment'); ?>
+				  </div>
+				
 				</div>
 
 			</article>

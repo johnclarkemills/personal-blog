@@ -8,12 +8,24 @@
 
 		<?php while (have_posts()) : the_post(); ?>
 
-			<div <?php post_class() ?>>
-				<h2 id="post-<?php the_ID(); ?>"><a href="<?php the_permalink() ?>" rel="bookmark" title="Permanent Link to <?php the_title_attribute(); ?>"><?php the_title(); ?></a></h2>
-                <small><?php the_time(get_option('date_format')) ?></small>
-                <?php the_content('Read the rest of this entry &raquo;'); ?>
-
-			</div>
+			<article <?php post_class() ?>>
+				<h2 class="post-title">
+					<div class="comment-count">
+						<?php comments_popup_link('<div class="icon-comments"></div> 0', '<div class="icon-comments"></div> 1', '<div class="icon-comments"></div> %'); ?>
+					</div>
+					<a href="<?php the_permalink() ?>" rel="bookmark" title="Permanent Link to <?php the_title_attribute(); ?>"><?php the_title(); ?></a>
+				</h2>
+				<time><?php the_time(get_option('date_format')) ?></time>
+                
+				<?php the_content('Read the rest of this entry &raquo;'); ?>
+				
+				<?php if(function_exists('selfserv_shareaholic')) { selfserv_shareaholic(); } ?>
+				  <div class="postmetadata">
+					  <span class="icon-comments"></span>
+					  <?php edit_post_link('Edit', '', ' | '); ?>  <?php comments_popup_link('Add a comment', '1 Comment | Add a comment', '% Comments | Add a comment'); ?>
+				  </div>
+				  
+			</article>
 
 		<?php endwhile; ?>
 

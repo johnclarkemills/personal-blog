@@ -13,14 +13,18 @@
 				<time><?php the_time(get_option('date_format')) ?></time>
 
 				<?php the_content('Read the rest of this entry &raquo;'); ?>
-
+				
+				
 				<hr class="clearfix" />
 
-        <?php wp_link_pages('before=<p class="pagination">&after=</p>&next_or_number=number&pagelink=page %'); ?>
+				<?php wp_link_pages('before=<p class="pagination">&after=</p>&next_or_number=number&pagelink=page %'); ?>
 
                 <!-- /* <p class="post_tags"><strong>Tagged with:</strong> <?php the_tags('', ', ' ,  ''); ?></p> */ -->
-        <p class="post_categories"><strong>Categories:</strong> <?php the_category(', '); ?> </p>
-
+				
+				<?php if(function_exists('selfserv_shareaholic')) { selfserv_shareaholic(); } ?>
+				
+				<p class="post_categories"><strong>Categories:</strong> <?php the_category(', '); ?> </p>
+				
 				<?php edit_post_link('Edit', '<p>', '</p>'); ?>
 
 				<hr class="clearfix" />
