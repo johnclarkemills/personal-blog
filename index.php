@@ -17,9 +17,14 @@
 				<?php the_content('Read the rest of this entry &raquo;'); ?>
 				
 		        <?php wp_link_pages('before=<p>&after=</p>&next_or_number=number&pagelink=page %'); ?>
-
-				<p class="postmetadata"><?php edit_post_link('Edit', '', ' | '); ?>  <?php comments_popup_link('Add a comment', '1 Comment | Add a comment', '% Comments | Add a comment'); ?></p>
-
+				
+				<div class="postmetadata">
+					<span class="icon-comments"></span>
+					<?php edit_post_link('Edit', '', ' | '); ?>  <?php comments_popup_link('Add a comment', '1 Comment | Add a comment', '% Comments | Add a comment'); ?>
+				</div>
+				
+				
+				
 				<hr class="clearfix" />
 			</article>
 

@@ -41,43 +41,64 @@
 			</div>
             <script src="http://widgets.twimg.com/j/2/widget.js"></script>
             <script>
-            new TWTR.Widget({
-              version: 2,
-              type: 'profile',
-              rpp: 5,
-              interval: 6000,
-              width: 325,
-              height: 300,
-              theme: {
-                shell: {
-                  background: '#ffffff',
-                  color: '#000000'
-                },
-                tweets: {
-                  background: '#ffffff',
-                  color: '#000000',
-                  links: '#2A642A'
-                }
-              },
-              features: {
-                scrollbar: false,
-                loop: false,
-                live: false,
-                hashtags: true,
-                timestamp: true,
-                avatars: false,
-                behavior: 'all'
-              }
-            }).render().setUser('johnclarkemills').start();
+				var windowHeight = parseInt(jQuery(window).height());
+				if (windowHeight < 600) { numTweets = 4; } else if(windowHeight < 800) { numTweets = 6; } else { numTweets = 8; }
+				new TWTR.Widget({
+				  version: 2,
+				  type: 'profile',
+				  rpp: numTweets,
+				  interval: 6000,
+				  width: 325,
+				  height: 500,
+				  theme: {
+					shell: {
+					  background: '#ffffff',
+					  color: '#000000'
+					},
+					tweets: {
+					  background: '#ffffff',
+					  color: '#000000',
+					  links: '#2A642A'
+					}
+				  },
+				  features: {
+					scrollbar: false,
+					loop: false,
+					live: false,
+					hashtags: true,
+					timestamp: true,
+					avatars: false,
+					behavior: 'all'
+				  }
+				}).render().setUser('johnclarkemills').start();
             </script>
-	
 			<script type="text/javascript" src="<?php echo site_url(); ?>/wp-content/themes/personal-blog/jquery.fixedscroll.js"></script>
 			<script>
 				jQuery('#intro').fixedscroll({ container: jQuery('#wrapper') });
 			</script>
 
+			<style>
+				.feature {
+					padding: 10px;
+				}
+			</style>
 			<div id="as-seen-in">
 				<div class="as-seen-in-head">Featured Articles</div>
+				<div class="feature">
+					<div style="padding-bottom: 5px;">
+						<a href="http://boingboing.net/2011/07/26/how-to-build-a-burning-man-theme-camp.html">
+							How to Build a Burning Man Theme Camp
+						</a>
+					</div>
+					<div class="right" style="width: 105px;">
+						<div class="boing-boing-icon icon"></div>
+					</div>
+				</div>
+				<!--<div class="semantic-web-icon"></div>-->
+				<!--<div class="unplggd-icon"></div>-->
+				<!--<div class="jalopnik-icon"></div>-->
+				<!--<div class="apartment-therapy-icon"></div>-->
+				<!--<div class="casa-sugar-icon"></div>-->
 			</div>
 		</aside>
   		<?php wp_footer(); ?>

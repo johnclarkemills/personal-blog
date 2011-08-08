@@ -21,9 +21,8 @@ abbr[title], dfn[title] {border-bottom:1px dotted #000;cursor:help;}
 table {border-collapse:collapse;border-spacing:0;}
 hr {display:block;height:1px;border:0;border-top:1px solid #EDE7D9;margin:1em 0;padding:0;}
 input, select {vertical-align:middle; }
-.left {
-  float: left;
-}
+.left { float: left; }
+.right { float: right; }
 body { background-color:#9DA784; padding-top:20px; font-family: "Helvetica Neue",Arial,Helvetica,'Liberation Sans',FreeSans,sans-serif; }
 a, a:visited {color:#2A642A; font-weight:bold;}
 /*a:hover { color:#70c3e3;}*/
@@ -54,24 +53,13 @@ aside { width:330px; margin-bottom: 10px; padding-left: 8px;}
 aside .twtr-hd,
 aside .twtr-ft{display:none;}
 
-#as-seen-in {
-  display: none;
-  border: 1px dotted #ddd; padding:0px; background-color:#fff; height:100px; margin-top: 10px;
-  -webkit-border-radius: 5px; -moz-border-radius: 5px; border-radius: 5px;
-}
-#as-seen-in .as-seen-in-head {
-  font-family: "Helvetica Neue",Arial,Helvetica,'Liberation Sans',FreeSans,sans-serif;
-  font-weight: 300; padding: 5px; border-bottom: 1px dotted #ddd; background: #F3F3F3;
-}
 #intro { margin-top:20px; padding-left: 10px; }
 #intro .photo {float:left; margin-right:10px;}
 #intro-text p {font-size:0.75em; color:#777777; font:italic 0.85em/18px Georgia;}
 #intro-text a {color:#0084B4; font-weight: normal; }
 #intro .photo img { border: 1px solid #DDD; }
-#intro h1 {
-  position: relative;
-  top: -2px;
-}
+#intro h1 { position: relative; top: -2px; }
+
 nav {float:left; width:100px; padding-left:10px; padding-top:10px; font-weight: 300; height: 750px;}
 nav h2 { color:#826B20; padding-bottom:8px; font-size: 1.1em;}
 nav ul { margin-bottom:20px;}
@@ -117,6 +105,7 @@ section h2 { margin-bottom: 7px; }
 .prevnext li {font-size:0.75em;}
 .comment-count { float: right; font-size: 0.75em; }
 .comment-count a { font-weight: normal; } 
+.postmetadata a { font-size: 0.75em; }
 
 #commentform .comment-form-comment label {float:left; display:block; width:100%;}
 #commentform .comment-form-comment textarea { float:left;}
@@ -132,6 +121,7 @@ section h2 { margin-bottom: 7px; }
 #social-networks .icon {
   width: 32px; height: 32px; display: block; float: left;
 }
+
 .twitter-icon { background: url("images/twitter_32.png") no-repeat; }
 .linkedin-icon { background: url("images/linkedin_32.png") no-repeat; }
 .flickr-icon { background: url("images/flickr_32.png") no-repeat; }
@@ -141,4 +131,21 @@ section h2 { margin-bottom: 7px; }
 
 .icon-comments { background: url("images/icon-comments.png") no-repeat; height: 16px; width: 16px; float: left; padding-right: 5px; }
 
+#as-seen-in {
+  display: none;
+  font-family: "Helvetica Neue",Arial,Helvetica,'Liberation Sans',FreeSans,sans-serif; font-weight: 300;
+  border: 1px dotted #ddd; padding:0px; background-color:#fff; height:100px; margin-top: 10px;
+  -webkit-border-radius: 5px; -moz-border-radius: 5px; border-radius: 5px;
+}
+#as-seen-in .as-seen-in-head { padding: 5px; border-bottom: 1px dotted #ddd; background: #F3F3F3; }
+#as-seen-in a { color: #0084B4; font-size: 1em; font-weight: 300; }
+#as-seen-in .icon { opacity: 0.4; }
+.boing-boing-icon { background: transparent url("images/as-seen-in.gif") 0 0 no-repeat; height: 26px;}
+.semantic-web-icon { background: transparent url("images/as-seen-in.gif") 0 -26px no-repeat; height: 23px;}
+.unplggd-icon { background: transparent url("images/as-seen-in.gif") 0 -48px no-repeat; height: 27px;}
+.jalopnik-icon { background: transparent url("images/as-seen-in.gif") 0 -75px no-repeat; height: 26px;}
+.casa-sugar-icon { background: transparent url("images/as-seen-in.gif") 0 -99px no-repeat; height: 23px;}
+.apartment-therapy-icon { background: transparent url("images/as-seen-in.gif") 0 -128px no-repeat; height: 23px;}
+
 .shr-getshr{ visibility: hidden; display: none; font-size: 10px ! important; }
+.shr-bookmarks { heigh: 40px ! important; }
