@@ -42,7 +42,7 @@
             <script src="http://widgets.twimg.com/j/2/widget.js"></script>
             <script>
 				var windowHeight = parseInt(jQuery(window).height());
-				if (windowHeight < 600) { numTweets = 4; } else if(windowHeight < 800) { numTweets = 6; } else { numTweets = 8; }
+				if (windowHeight < 600) { numTweets = 4; } else if(windowHeight < 800) { numTweets = 4; } else { numTweets = 6; }
 				new TWTR.Widget({
 				  version: 2,
 				  type: 'profile',
@@ -90,8 +90,8 @@
 							How to Build a Burning Man Theme Camp
 						</a>
 					</div>
-					<div class="right" style="width: 105px;">
-						<div class="boing-boing-icon icon"></div>
+					<div class="right" style="width: 175px;">
+						<div style="float: left; font-size: 0.7em; width: 20px; padding-top: 5px;">via</div> <div class="boing-boing-icon icon"></div>
 					</div>
 				</div>
 				<!--<div class="semantic-web-icon"></div>-->
