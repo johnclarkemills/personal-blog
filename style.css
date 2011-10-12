@@ -53,7 +53,7 @@ aside { width:330px; margin-bottom: 10px; padding-left: 8px;}
 aside .twtr-hd,
 aside .twtr-ft{display:none;}
 
-#intro { margin-top:20px; padding-left: 10px; }
+#intro { margin-top:20px; padding-left: 10px; overflow-x: hidden !important;}
 #intro .photo {float:left; margin-right:10px;}
 #intro-text p {font-size:0.75em; color:#777777; font:italic 0.85em/18px Georgia;}
 #intro-text a {color:#0084B4; font-weight: normal; }
@@ -139,12 +139,20 @@ section h2 { margin-bottom: 9px; }
 #as-seen-in .as-seen-in-head { padding: 5px; border-bottom: 1px dotted #ddd; background: #F3F3F3; }
 #as-seen-in a { color: #0084B4; font-size: 1em; font-weight: 300; }
 #as-seen-in .icon { opacity: 0.4; margin-left: 20px;}
+.features { padding: 10px; }
+.features ul li { width: 350px;	 }
+.featured-article { padding-bottom: 7px; }
+.featured-logo-area { float: right; width: 200px; }
+.via { float: left; font-size: 0.7em; width: 20px; padding-top: 8px; color: #aaa;}
+
 .boing-boing-icon { background: transparent url("images/as-seen-in.gif") 0 0 no-repeat; height: 26px;}
 .semantic-web-icon { background: transparent url("images/as-seen-in.gif") 0 -26px no-repeat; height: 23px;}
 .unplggd-icon { background: transparent url("images/as-seen-in.gif") 0 -48px no-repeat; height: 27px;}
 .jalopnik-icon { background: transparent url("images/as-seen-in.gif") 0 -75px no-repeat; height: 26px;}
 .casa-sugar-icon { background: transparent url("images/as-seen-in.gif") 0 -99px no-repeat; height: 23px;}
-.apartment-therapy-icon { background: transparent url("images/as-seen-in.gif") 0 -128px no-repeat; height: 23px;}
+.apartment-therapy-icon { background: transparent url("images/as-seen-in.gif") 0 -124px no-repeat; height: 23px;}
+.make-icon { background: transparent url("images/as-seen-in.gif") 0 -147px no-repeat; height: 40px;}
 
 .shr-getshr{ visibility: hidden; display: none; font-size: 10px ! important; }
 .shr-bookmarks { heigh: 40px ! important; }
+                

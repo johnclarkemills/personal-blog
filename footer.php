@@ -40,6 +40,8 @@
 				<script src="http://platform.twitter.com/widgets.js" type="text/javascript"></script>
 			</div>
             <script src="http://widgets.twimg.com/j/2/widget.js"></script>
+			<script type="text/javascript" src="<?php echo site_url(); ?>/wp-content/themes/personal-blog/jquery.fixedscroll.js"></script>
+			<script type="text/javascript" src="<?php echo site_url(); ?>/wp-content/themes/personal-blog/jcarousellite_1.0.1.min.js"></script>
             <script>
 				var windowHeight = parseInt(jQuery(window).height());
 				if (windowHeight < 600) { numTweets = 4; } else if(windowHeight < 800) { numTweets = 4; } else { numTweets = 6; }
@@ -71,34 +73,92 @@
 					behavior: 'all'
 				  }
 				}).render().setUser('johnclarkemills').start();
-            </script>
-			<script type="text/javascript" src="<?php echo site_url(); ?>/wp-content/themes/personal-blog/jquery.fixedscroll.js"></script>
-			<script>
+				jQuery.noConflict();
 				jQuery('#intro').fixedscroll({ container: jQuery('#wrapper') });
+				
+				jQuery(document).ready(function() {
+					jQuery(function() {
+						jQuery(".features").jCarouselLite({
+							btnNext: ".next",
+							btnPrev: ".prev",
+							auto: 10000,
+							speed: 1000
+						});
+					});
+				});
+			
 			</script>
-
-			<style>
-				.feature {
-					padding: 10px;
-				}
-			</style>
 			<div id="as-seen-in">
 				<div class="as-seen-in-head">Featured Articles</div>
-				<div class="feature">
-					<div style="padding-bottom: 5px;">
-						<a href="http://boingboing.net/2011/07/26/how-to-build-a-burning-man-theme-camp.html">
-							How to Build a Burning Man Theme Camp
-						</a>
-					</div>
-					<div class="right" style="width: 175px;">
-						<div style="float: left; font-size: 0.7em; width: 20px; padding-top: 5px;">via</div> <div class="boing-boing-icon icon"></div>
-					</div>
+				<div class="features">
+					<ul>
+						<li>
+							<div class="featured-article">
+								<a href="http://boingboing.net/2011/07/26/how-to-build-a-burning-man-theme-camp.html" target="blank">
+									How to Build a Burning Man Theme Camp
+								</a>
+							</div>
+							<div class="featured-logo-area">
+								<div class="via">via</div>
+								<a href="http://boingboing.net/2011/07/26/how-to-build-a-burning-man-theme-camp.html" target="blank">
+									<div class="boing-boing-icon icon"></div>
+								</a>
+							</div>
+						</li>
+						<li>
+							<div class="featured-article">
+								<a href="http://blog.makezine.com/archive/2011/09/how-to-build-a-victorian-library.html" target="blank">
+									How-To: Build A Victorian Library
+								</a>
+							</div>
+							<div class="featured-logo-area" style="width: 150px;">
+								<div class="via">via</div>
+								<a href="http://blog.makezine.com/archive/2011/09/how-to-build-a-victorian-library.html" target="blank">
+									<div class="make-icon icon"></div>
+								</a>
+							</div>
+						</li>
+						<li>
+							<div class="featured-article">
+								<a href="http://www.apartmenttherapy.com/sf/how-to/before-and-after-how-to-redo-a-chandelier-070426" target="blank">
+									Before and After: How To Redo a Chandelier
+								</a>
+							</div>
+							<div class="featured-logo-area" style="width: 210px;">
+								<div class="via">via</div>
+								<a href="http://www.apartmenttherapy.com/sf/how-to/before-and-after-how-to-redo-a-chandelier-070426" target="blank">
+									<div class="apartment-therapy-icon icon"></div>
+								</a>
+							</div>
+						</li>
+						<li>
+							<div class="featured-article">
+								<a href="http://jalopnik.com/225255/megasquirted-2002-on-the-streets-of-san-francisco" target="blank">
+									BMW 2002 on the Streets of San Francisco
+								</a>
+							</div>
+							<div class="featured-logo-area">
+								<div class="via">via</div>
+								<a href="http://jalopnik.com/225255/megasquirted-2002-on-the-streets-of-san-francisco" target="blank">
+									<div class="jalopnik-icon icon"></div>
+								</a>
+							</div>
+						</li>
+						<li>
+							<div class="featured-article">
+								<a href="http://www.casasugar.com/Before-After-Restoring-Victorian-Staircase-5203093" target="blank">
+									Restoring a Victorian Staircase
+								</a>
+							</div>
+							<div class="featured-logo-area">
+								<div class="via">via</div>
+								<a href="http://www.casasugar.com/Before-After-Restoring-Victorian-Staircase-5203093" target="blank">
+									<div class="casa-sugar-icon icon"></div>
+								</a>
+							</div>
+						</li>
+					</ul>
 				</div>
-				<!--<div class="semantic-web-icon"></div>-->
-				<!--<div class="unplggd-icon"></div>-->
-				<!--<div class="jalopnik-icon"></div>-->
-				<!--<div class="apartment-therapy-icon"></div>-->
-				<!--<div class="casa-sugar-icon"></div>-->
 			</div>
 		</aside>
   		<?php wp_footer(); ?>
