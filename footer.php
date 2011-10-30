@@ -19,7 +19,7 @@
 				<h1>John Clarke Mills</h1>
 				<p>
 					<!--<a href="http://twitter.com/johnclarkemills">@johnclarkemills</a><br />-->
-					Director of Engineering and founding engineer at <a target="_blank" href="http://twitter.com/bbfdirect">@bbfdirect</a>,
+					Director of Engineering and founding engineer at <a target="_blank" href="http://www.buyersbestfriend.com">BBF Direct</a>,
 					loving restorer of <a target="_blank" href="http://www.sanfranvic.com">San Fran Vic</a>, cofounder of the
 					<a target="_blank" href="http://www.theduckpondcrew.com">Duck Pond</a>, tinkerer, and mechanic.<br />
 				</p>
@@ -34,9 +34,9 @@
 				</div>
 			</span>
 			<div class="clearfloat"></div>
-			
+
 			<div id="twitter-follow">
-				<a href="http://twitter.com/johnclarkemills" class="twitter-follow-button">Follow @johnclarkemills</a>
+				<a href="http://twitter.com/johnclarkemills" class="twitter-follow-button" data-show-count="false">Follow @johnclarkemills</a>
 				<script src="http://platform.twitter.com/widgets.js" type="text/javascript"></script>
 			</div>
             <script src="http://widgets.twimg.com/j/2/widget.js"></script>
