@@ -20,7 +20,7 @@
 				<p>
 					Entrepreneur, engineer, woodworker, and mechanic.  Director of Engineering at
 					<a target="_blank" onclick="if (_gaq != undefined) { _gaq.push(['_trackEvent', 'Click BBF']); }" href="http://www.buyersbestfriend.com">BBF</a>,
-					restorer of <a target="_blank" onclick="if (_gaq != undefined) { _gaq.push(['_trackEvent', 'Click San Fran Vic']); }" href="http://www.sanfranvic.com">San Fran Vic</a>, cofounder of the
+					loving restorer of <a target="_blank" onclick="if (_gaq != undefined) { _gaq.push(['_trackEvent', 'Click San Fran Vic']); }" href="http://www.sanfranvic.com">San Fran Vic</a>, cofounder of the
 					<a target="_blank" onclick="if (_gaq != undefined) { _gaq.push(['_trackEvent', 'Click Duck Pond']); }" href="http://duckpondcamp.org">Duck Pond</a>.<br />
 				</p>
 				<div class="clearfloat"></div>
