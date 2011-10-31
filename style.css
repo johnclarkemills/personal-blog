@@ -145,6 +145,8 @@ section h2 { margin-bottom: 9px; }
 .featured-logo-area { float: right; width: 200px; }
 .via { float: left; font-size: 0.7em; width: 20px; padding-top: 8px; color: #aaa;}
 
+#next-feature { background: transparent url("images/next-button.png") 0 0 no-repeat; float: right; cursor: pointer; padding-right: 13px; }
+#previous-feature { background: transparent url("images/previous-button.png") 0 0 no-repeat; float: right; cursor: pointer; padding-right: 13px; }
 .boing-boing-icon { background: transparent url("images/as-seen-in.gif") 0 0 no-repeat; height: 26px;}
 .semantic-web-icon { background: transparent url("images/as-seen-in.gif") 0 -26px no-repeat; height: 23px;}
 .unplggd-icon { background: transparent url("images/as-seen-in.gif") 0 -48px no-repeat; height: 27px;}
