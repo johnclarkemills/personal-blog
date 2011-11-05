@@ -12,31 +12,31 @@
         <aside id="intro">
 			<span id="intro-text">
 				<div class="photo">
-					<a href="http://www.gravatar.com/avatar/dd7140aaf81fa3ffb16bd46d00bad8a7?s=1000" target="_blank" onclick="if (_gaq != undefined) { _gaq.push(['_trackEvent', 'Click Avatar']); }">
+					<a href="http://www.gravatar.com/avatar/dd7140aaf81fa3ffb16bd46d00bad8a7?s=1000" target="_blank" onclick="if (_gaq != undefined) { _gaq.push(['_trackEvent', 'Click', 'Avatar']); }">
 						<img src="http://www.gravatar.com/avatar/dd7140aaf81fa3ffb16bd46d00bad8a7?s=100" width="100" height="100" alt="John Clarke Mills" />
 					</a>
 				</div>
 				<h1>John Clarke Mills</h1>
 				<p>
 					Entrepreneur, engineer, woodworker, and mechanic.  Director of Engineering at
-					<a target="_blank" onclick="if (_gaq != undefined) { _gaq.push(['_trackEvent', 'Click BBF']); }" href="http://www.buyersbestfriend.com">BBF</a>,
-					loving restorer of <a target="_blank" onclick="if (_gaq != undefined) { _gaq.push(['_trackEvent', 'Click San Fran Vic']); }" href="http://www.sanfranvic.com">San Fran Vic</a>, cofounder of the
-					<a target="_blank" onclick="if (_gaq != undefined) { _gaq.push(['_trackEvent', 'Click Duck Pond']); }" href="http://duckpondcamp.org">Duck Pond</a>.<br />
+					<a target="_blank" onclick="if (_gaq != undefined) { _gaq.push(['_trackEvent', 'Click', 'BBF']); }" href="http://www.buyersbestfriend.com">BBF</a>,
+					loving restorer of <a target="_blank" onclick="if (_gaq != undefined) { _gaq.push(['_trackEvent', 'Click', 'San Fran Vic']); }" href="http://www.sanfranvic.com">San Fran Vic</a>, cofounder of the
+					<a target="_blank" onclick="if (_gaq != undefined) { _gaq.push(['_trackEvent', 'Click', 'Duck Pond']); }" href="http://duckpondcamp.org">Duck Pond</a>.<br />
 				</p>
 				<div class="clearfloat"></div>
 				
 				<div id="social-networks">
-					<a class="icon twitter-icon" target="_blank" onclick="if (_gaq != undefined) { _gaq.push(['_trackEvent', 'Click Twitter']); }" href="http://twitter.com/johnclarkemills" alt="John Clarke Mills on Twitter"></a>
-					<a class="icon linkedin-icon" target="_blank" onclick="if (_gaq != undefined) { _gaq.push(['_trackEvent', 'Click LinkedIn']); }" href="http://www.linkedin.com/in/johnclarkemills" alt="John Clarke Mills on LinkedIn"></a>
-					<a class="icon facebook-icon" target="_blank" onclick="if (_gaq != undefined) { _gaq.push(['_trackEvent', 'Click Facebook']); }" href="http://www.facebook.com/johnclarkemills" alt="John Clarke Mills on Facebook"></a>
-					<a class="icon flickr-icon" target="_blank" onclick="if (_gaq != undefined) { _gaq.push(['_trackEvent', 'Click Flickr']); }" href="http://www.flickr.com/people/johnclarkemills" alt="John Clarke Mills on Flickr"></a>
-					<a class="icon mail-icon" onClick="var mail = 'john'; var addr = 'johnclarkemills.com'; jQuery(this).attr('href', 'mailto:' + mail + '@' + addr); if (_gaq != undefined) { _gaq.push(['_trackEvent', 'Click Email']); }" href="#"></a>
+					<a class="icon twitter-icon" target="_blank" onclick="if (_gaq != undefined) { _gaq.push(['_trackEvent', 'Click', 'Twitter']); }" href="http://twitter.com/johnclarkemills" alt="John Clarke Mills on Twitter"></a>
+					<a class="icon linkedin-icon" target="_blank" onclick="if (_gaq != undefined) { _gaq.push(['_trackEvent', 'Click', 'LinkedIn']); }" href="http://www.linkedin.com/in/johnclarkemills" alt="John Clarke Mills on LinkedIn"></a>
+					<a class="icon facebook-icon" target="_blank" onclick="if (_gaq != undefined) { _gaq.push(['_trackEvent', 'Click', 'Facebook']); }" href="http://www.facebook.com/johnclarkemills" alt="John Clarke Mills on Facebook"></a>
+					<a class="icon flickr-icon" target="_blank" onclick="if (_gaq != undefined) { _gaq.push(['_trackEvent', 'Click', 'Flickr']); }" href="http://www.flickr.com/people/johnclarkemills" alt="John Clarke Mills on Flickr"></a>
+					<a class="icon mail-icon" onClick="var mail = 'john'; var addr = 'johnclarkemills.com'; jQuery(this).attr('href', 'mailto:' + mail + '@' + addr); if (_gaq != undefined) { _gaq.push(['_trackEvent', 'Click', 'Email']); }" href="#"></a>
 				</div>
 			</span>
 			<div class="clearfloat"></div>
 
 			<div id="twitter-follow">
-				<a href="http://twitter.com/johnclarkemills" class="twitter-follow-button" data-show-count="false">Follow @johnclarkemills</a>
+				<a href="http://twitter.com/johnclarkemills" class="twitter-follow-button">Follow @johnclarkemills</a>
 			</div>
             <script src="http://widgets.twimg.com/j/2/widget.js"></script>
 			<script type="text/javascript" src="<?php echo site_url(); ?>/wp-content/themes/personal-blog/jquery.fixedscroll.js"></script>
@@ -90,8 +90,8 @@
 			<div id="as-seen-in">
 				<div class="as-seen-in-head">
 					Featured Articles
-					<div id="next-feature" onclick="if (_gaq != undefined) { _gaq.push(['_trackEvent', 'Click Next Feature']); }">&nbsp;</div>
-					<div id="previous-feature" onclick="if (_gaq != undefined) { _gaq.push(['_trackEvent', 'Click Previous Feature']); }">&nbsp;</div>
+					<div id="next-feature" onclick="if (_gaq != undefined) { _gaq.push(['_trackEvent', 'Click', 'Next Feature']); }">&nbsp;</div>
+					<div id="previous-feature" onclick="if (_gaq != undefined) { _gaq.push(['_trackEvent', 'Click', 'Previous Feature']); }">&nbsp;</div>
 				</div>
 				<div class="features">
 					<ul>
