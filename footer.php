@@ -12,15 +12,15 @@
         <aside id="intro">
 			<span id="intro-text">
 				<div class="photo">
-					<a href="http://www.gravatar.com/avatar/dd7140aaf81fa3ffb16bd46d00bad8a7?s=1000" target="_blank" onclick="if (_gaq != undefined) { _gaq.push(['_trackEvent', 'Click', 'Avatar']); }">
-						<img src="http://www.gravatar.com/avatar/dd7140aaf81fa3ffb16bd46d00bad8a7?s=100" width="100" height="100" alt="John Clarke Mills" />
+					<a href="http://www.johnclarkemills.com/wp-content/uploads/2011/12/avatar.jpg" target="_blank" onclick="if (_gaq != undefined) { _gaq.push(['_trackEvent', 'Click', 'Avatar']); }">
+						<img src="http://www.johnclarkemills.com/wp-content/uploads/2011/12/avatar-150x150.jpg" width="100" height="100" alt="John Clarke Mills" />
 					</a>
 				</div>
 				<h1>John Clarke Mills</h1>
 				<p>
-					Entrepreneur, engineer, woodworker, and mechanic.  Director of Engineering at
+					Engineer, woodworker, <br/>mechanic, and maker of mistakes.  Co-founder/Engineering at
 					<a target="_blank" onclick="if (_gaq != undefined) { _gaq.push(['_trackEvent', 'Click', 'BBF']); }" href="http://www.buyersbestfriend.com">BBF</a>,
-					loving restorer of <a target="_blank" onclick="if (_gaq != undefined) { _gaq.push(['_trackEvent', 'Click', 'San Fran Vic']); }" href="http://www.sanfranvic.com">San Fran Vic</a>, cofounder of the
+					loving restorer of <a target="_blank" onclick="if (_gaq != undefined) { _gaq.push(['_trackEvent', 'Click', 'San Fran Vic']); }" href="http://www.sanfranvic.com">San Fran Vic</a>, Co-founder of the
 					<a target="_blank" onclick="if (_gaq != undefined) { _gaq.push(['_trackEvent', 'Click', 'Duck Pond']); }" href="http://duckpondcamp.org">Duck Pond</a>.<br />
 				</p>
 				<div class="clearfloat"></div>
@@ -89,7 +89,7 @@
 			</script>
 			<div id="as-seen-in">
 				<div class="as-seen-in-head">
-					Featured Articles
+					Featured Projects
 					<div id="next-feature" onclick="if (_gaq != undefined) { _gaq.push(['_trackEvent', 'Click', 'Next Feature']); }">&nbsp;</div>
 					<div id="previous-feature" onclick="if (_gaq != undefined) { _gaq.push(['_trackEvent', 'Click', 'Previous Feature']); }">&nbsp;</div>
 				</div>
