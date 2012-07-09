@@ -16,7 +16,15 @@
 						<img src="http://www.johnclarkemills.com/wp-content/uploads/2011/12/avatar-150x150.jpg" width="100" height="100" alt="John Clarke Mills" />
 					</a>
 				</div>
-				<h1>John Clarke Mills</h1>
+				<div id="hcard-John-Clarke-Mills" class="vcard">
+					<span class="fn n">
+						<h1>
+						<span class="given-name">John</span>
+						<span class="additional-name">Clarke</span>
+						<span class="family-name">Mills</span>
+						</h1>
+				   </span>
+				</div>
 				<p>
 					Engineer, woodworker, <br/>mechanic, and maker of mistakes.  Co-founder/Engineering at
 					<a target="_blank" onclick="if (_gaq != undefined) { _gaq.push(['_trackEvent', 'Click', 'BBF']); }" href="http://www.buyersbestfriend.com">BBF</a>,
@@ -26,11 +34,12 @@
 				<div class="clearfloat"></div>
 				
 				<div id="social-networks">
+					<a class="icon mail-icon" onClick="var mail = 'john'; var addr = 'johnclarkemills.com'; jQuery(this).attr('href', 'mailto:' + mail + '@' + addr); if (_gaq != undefined) { _gaq.push(['_trackEvent', 'Click', 'Email']); }" href="#"></a>
 					<a class="icon twitter-icon" target="_blank" onclick="if (_gaq != undefined) { _gaq.push(['_trackEvent', 'Click', 'Twitter']); }" href="http://twitter.com/johnclarkemills" alt="John Clarke Mills on Twitter"></a>
 					<a class="icon linkedin-icon" target="_blank" onclick="if (_gaq != undefined) { _gaq.push(['_trackEvent', 'Click', 'LinkedIn']); }" href="http://www.linkedin.com/in/johnclarkemills" alt="John Clarke Mills on LinkedIn"></a>
 					<a class="icon facebook-icon" target="_blank" onclick="if (_gaq != undefined) { _gaq.push(['_trackEvent', 'Click', 'Facebook']); }" href="http://www.facebook.com/johnclarkemills" alt="John Clarke Mills on Facebook"></a>
+					<!--<a rel="author" class="icon google-icon" target="_blank" onclick="if (_gaq != undefined) { _gaq.push(['_trackEvent', 'Click', 'Google']); }" href="https://plus.google.com/110523674200626115395" alt="John Clarke Mills on Google Plus"></a>-->
 					<a class="icon flickr-icon" target="_blank" onclick="if (_gaq != undefined) { _gaq.push(['_trackEvent', 'Click', 'Flickr']); }" href="http://www.flickr.com/people/johnclarkemills" alt="John Clarke Mills on Flickr"></a>
-					<a class="icon mail-icon" onClick="var mail = 'john'; var addr = 'johnclarkemills.com'; jQuery(this).attr('href', 'mailto:' + mail + '@' + addr); if (_gaq != undefined) { _gaq.push(['_trackEvent', 'Click', 'Email']); }" href="#"></a>
 				</div>
 			</span>
 			<div class="clearfloat"></div>
