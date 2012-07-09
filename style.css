@@ -89,7 +89,7 @@ article h1,
 article h2 a { color:#333; font-family: "Helvetica Neue",Arial,Helvetica,'Liberation Sans',FreeSans,sans-serif; }
 article p { font-size:0.8em; line-height:17px; margin-bottom:18px; font-weight: 300;}
 article img.right {float:right; margin:0 0 10px 10px;}
-article time { color: #666; font-size:0.6em; margin-bottom: 10px; display:block;}
+article time { color: #666; font-size: 0.7em; margin-bottom: 10px; display:block;}
 section h1 { color: #2A642A; margin-bottom: 10px;}
 section h2 a, section h2 a:visited {color:#333;}
 section h2 { margin-bottom: 9px; }
