@@ -15,8 +15,14 @@
 					</div>
 					<a href="<?php the_permalink() ?>" class="entry-title" rel="bookmark" title="<?php the_title_attribute(); ?>"><?php the_title(); ?></a>
 				</h2>
-				<time class="date updated"><?php the_time(get_option('date_format')) ?></time>
-                
+				<div class="subtitle">
+					<div class="date updated left"><?php the_time(get_option('date_format')) ?></div>
+					<div class="divider left">&nbsp;by&nbsp;</div>
+					<div class="vcard author left">
+						<span class="fn">John Clarke Mills</span>
+					</div>
+				</div>
+								
 				<?php the_content('Read the rest of this entry &raquo;'); ?>
 				
 				<?php if(function_exists('selfserv_shareaholic')) { selfserv_shareaholic(); } ?>
