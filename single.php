@@ -14,10 +14,12 @@
 					<div class="date updated left"><?php the_time(get_option('date_format')) ?></div>
 					<div class="divider left">&nbsp;by&nbsp;</div>
 					<div class="vcard author left">
-						<span class="fn">John Clarke Mills</span>
+						<span class="fn n">
+							<span class="given-name">John</span><span class="additional-name">Clarke</span><span class="family-name">Mills</span>
+						</span>
 					</div>
 				</div>
-
+				
 				<?php the_content('Read the rest of this entry &raquo;'); ?>
 				
 				

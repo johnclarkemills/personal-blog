@@ -19,9 +19,9 @@
 				<div id="hcard-John-Clarke-Mills" class="vcard">
 					<span class="fn n">
 						<h1>
-						<span class="given-name">John</span>
-						<span class="additional-name">Clarke</span>
-						<span class="family-name">Mills</span>
+							<span class="given-name">John</span>
+							<span class="additional-name">Clarke</span>
+							<span class="family-name">Mills</span>
 						</h1>
 				   </span>
 				</div>
