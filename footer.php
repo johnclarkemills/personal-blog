@@ -16,15 +16,7 @@
 						<img src="http://www.johnclarkemills.com/wp-content/uploads/2011/12/avatar-150x150.jpg" width="100" height="100" alt="John Clarke Mills" />
 					</a>
 				</div>
-				<div id="hcard-John-Clarke-Mills" class="vcard">
-					<span class="fn n">
-						<h1>
-							<span class="given-name">John</span>
-							<span class="additional-name">Clarke</span>
-							<span class="family-name">Mills</span>
-						</h1>
-				   </span>
-				</div>
+				<h1>John Clarke Mills</h1>
 				<p>
 					Engineer, woodworker, <br/>mechanic, and maker of mistakes.  Co-founder/Engineering at
 					<a target="_blank" onclick="if (_gaq != undefined) { _gaq.push(['_trackEvent', 'Click', 'BBF']); }" href="http://www.buyersbestfriend.com">BBF</a>,
