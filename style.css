@@ -1,9 +1,9 @@
 /*
 Theme Name: DesignMills
 Theme URI:
-Description: John's a n00b
-Author: n00b
-Version: 1.0
+Description: John Clarke Mills' Personal Web Site
+Author: John Clarke Mils
+Version: 1.1
 */
 html, body, div, span, object, iframe,h1, h2, h3, h4, h5, h6, p, blockquote, pre,abbr, address, cite, code,del, dfn, em, img, ins, kbd, q, samp,small, strong, sub, sup, var,b, i,dl, dt, dd, ol, ul, li,fieldset, form, label, legend,table, caption, tbody, tfoot, thead, tr, th, td,article, aside, dialog, figure, footer, header,hgroup, menu, nav, section,time, mark, audio, video { margin:0; padding:0; border:0; outline:0; font-size:100%; vertical-align:baseline; background:transparent;}
 body {line-height:1; font-size:100%; font-family:Arial,sans-serif; background-color:#fff; color:#333; }
@@ -23,6 +23,7 @@ hr {display:block;height:1px;border:0;border-top:1px solid #EDE7D9;margin:1em 0;
 input, select {vertical-align:middle; }
 .left { float: left; }
 .right { float: right; }
+.clear { clear: both; }
 body { background-color:#9DA784; padding-top:20px; font-family: "Helvetica Neue",Arial,Helvetica,'Liberation Sans',FreeSans,sans-serif; }
 a, a:visited {color:#2A642A; font-weight:bold;}
 /*a:hover { color:#70c3e3;}*/
@@ -89,7 +90,8 @@ article h1,
 article h2 a { color:#333; font-family: "Helvetica Neue",Arial,Helvetica,'Liberation Sans',FreeSans,sans-serif; }
 article p { font-size:0.8em; line-height:17px; margin-bottom:18px; font-weight: 300;}
 article img.right {float:right; margin:0 0 10px 10px;}
-article time { color: #666; font-size: 0.7em; margin-bottom: 10px; display:block;}
+article time, article .author, article .divider { color: #666; font-size: 0.7em; display:block; margin-bottom: 10px; }
+article .subtitle { color: #666; margin-bottom: 15px; height: 15px; }
 section h1 { color: #2A642A; margin-bottom: 10px;}
 section h2 a, section h2 a:visited {color:#333;}
 section h2 { margin-bottom: 9px; }
