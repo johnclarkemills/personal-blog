@@ -9,9 +9,9 @@
 					<div class="comment-count">
 						<?php comments_popup_link('<div class="icon-comments"></div> 0', '<div class="icon-comments"></div> 1', '<div class="icon-comments"></div> %'); ?>
 					</div>
-					<a href="<?php the_permalink() ?>" rel="bookmark" title="Permanent Link to <?php the_title_attribute(); ?>"><?php the_title(); ?></a>
+					<a href="<?php the_permalink() ?>" class="entry-title" rel="bookmark" title="<?php the_title_attribute(); ?>"><?php the_title(); ?></a>
 				</h2>
-				<time class="date updated"><?php the_time(get_option('date_format')) ?></time>
+				<time><?php the_time(get_option('date_format')) ?></time>
 				
 				
 				<?php the_content('Read the rest of this entry &raquo;'); ?>
