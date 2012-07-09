@@ -20,7 +20,9 @@
 					<div class="divider left">&nbsp;by&nbsp;</div>
 					<div class="vcard author left">
 						<span class="fn n">
-							<span class="given-name">John</span><span class="additional-name">Clarke</span><span class="family-name">Mills</span>
+							<span class="given-name">John</span>
+							<span class="additional-name">Clarke</span>
+							<span class="family-name">Mills</span>
 						</span>
 					</div>
 				</div>
