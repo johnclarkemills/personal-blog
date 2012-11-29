@@ -40,8 +40,6 @@
 				<a href="http://twitter.com/johnclarkemills" class="twitter-follow-button">Follow @johnclarkemills</a>
 			</div>
             <script src="http://widgets.twimg.com/j/2/widget.js"></script>
-			<script type="text/javascript" src="<?php echo site_url(); ?>/wp-content/themes/personal-blog/jquery.fixedscroll.js"></script>
-			<script type="text/javascript" src="<?php echo site_url(); ?>/wp-content/themes/personal-blog/jcarousellite_1.0.1.min.js"></script>
             <script>
 				var windowHeight = parseInt(jQuery(window).height());
 				if (windowHeight < 600) { numTweets = 4; } else if(windowHeight < 800) { numTweets = 4; } else { numTweets = 6; }
