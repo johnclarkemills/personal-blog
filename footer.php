@@ -26,7 +26,7 @@
 				<div class="clearfloat"></div>
 				
 				<div id="social-networks">
-					<a class="icon mail-icon" onClick="var mail = 'john'; var addr = 'johnclarkemills.com'; jQuery(this).attr('href', 'mailto:' + mail + '@' + addr); if (_gaq != undefined) { _gaq.push(['_trackEvent', 'Click', 'Email']); }" href="#"></a>
+					<a class="icon mail-icon" onClick="var mail = 'john'; var addr = 'johnclarkemills.com'; $(this).attr('href', 'mailto:' + mail + '@' + addr); if (_gaq != undefined) { _gaq.push(['_trackEvent', 'Click', 'Email']); }" href="#"></a>
 					<a class="icon twitter-icon" target="_blank" onclick="if (_gaq != undefined) { _gaq.push(['_trackEvent', 'Click', 'Twitter']); }" href="http://twitter.com/johnclarkemills" alt="John Clarke Mills on Twitter"></a>
 					<a class="icon linkedin-icon" target="_blank" onclick="if (_gaq != undefined) { _gaq.push(['_trackEvent', 'Click', 'LinkedIn']); }" href="http://www.linkedin.com/in/johnclarkemills" alt="John Clarke Mills on LinkedIn"></a>
 					<a class="icon facebook-icon" target="_blank" onclick="if (_gaq != undefined) { _gaq.push(['_trackEvent', 'Click', 'Facebook']); }" href="http://www.facebook.com/johnclarkemills" alt="John Clarke Mills on Facebook"></a>
@@ -41,7 +41,7 @@
 			</div>
             <script src="http://widgets.twimg.com/j/2/widget.js"></script>
             <script>
-				var windowHeight = parseInt(jQuery(window).height());
+				var windowHeight = parseInt($(window).height());
 				if (windowHeight < 600) { numTweets = 4; } else if(windowHeight < 800) { numTweets = 4; } else { numTweets = 6; }
 				new TWTR.Widget({
 				  version: 2,
@@ -71,12 +71,11 @@
 					behavior: 'all'
 				  }
 				}).render().setUser('johnclarkemills').start();
-				jQuery.noConflict();
-				jQuery('#intro').fixedscroll({ container: jQuery('#wrapper') });
+				$('#intro').fixedscroll({ container: $('#wrapper') });
 				
-				jQuery(document).ready(function() {
-					jQuery(function() {
-						jQuery(".features").jCarouselLite({
+				$(document).ready(function() {
+					$(function() {
+						$(".features").jCarouselLite({
 							btnNext: "#next-feature",
 							btnPrev: "#previous-feature",
 							auto: 10000,
