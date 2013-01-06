@@ -19,7 +19,7 @@
 				<h1>John Clarke Mills</h1>
 				<p>
 					Engineer, woodworker, <br/>mechanic, and maker of mistakes.  Co-founder of
-					&nbsp;<a target="_blank" onclick="if (_gaq != undefined) { _gaq.push(['_trackEvent', 'Click', 'BBF']); }" href="http://www.nextpunch.com">NextPunch</a>,
+					&nbsp;<a target="_blank" onclick="if (_gaq != undefined) { _gaq.push(['_trackEvent', 'Click', 'BBF']); }" href="http://forms.nextpunch.com">NextPunch</a>,
 					loving restorer of <a target="_blank" onclick="if (_gaq != undefined) { _gaq.push(['_trackEvent', 'Click', 'San Fran Vic']); }" href="http://www.sanfranvic.com">San Fran Vic</a>, Co-founder of the
 					<a target="_blank" onclick="if (_gaq != undefined) { _gaq.push(['_trackEvent', 'Click', 'Duck Pond']); }" href="http://duckpondcamp.org">Duck Pond</a>.<br />
 				</p>
