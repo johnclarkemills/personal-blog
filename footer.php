@@ -40,7 +40,7 @@
 				<a href="http://twitter.com/johnclarkemills" class="twitter-follow-button">Follow @johnclarkemills</a>
 			</div>
 			
-			<a class="twitter-timeline" height="350" href="https://twitter.com/johnclarkemills" data-chrome="noheader transparent noscrollbar" data-widget-id="356603510101536768">Tweets by @johnclarkemills</a>
+			<a class="twitter-timeline" height="250" href="https://twitter.com/johnclarkemills" data-chrome="noheader transparent noscrollbar nofooter" data-widget-id="356603510101536768">Tweets by @johnclarkemills</a>
 			<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
 			
 			<div id="as-seen-in">
@@ -124,5 +124,19 @@
         <div class="clearfloat"></div>
 	</div>
 	<div class="clearfloat"></div>
+	<script>
+		$('#intro').fixedscroll({ container: $('#wrapper') });
+				
+			$(document).ready(function() {
+				$(function() {
+					$(".features").jCarouselLite({
+						btnNext: "#next-feature",
+						btnPrev: "#previous-feature",
+						auto: 10000,
+						speed: 1000
+					});
+				});
+			});
+	</script>
 	</body>
 </html>
