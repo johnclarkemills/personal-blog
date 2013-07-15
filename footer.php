@@ -12,26 +12,26 @@
         <aside id="intro">
 			<span id="intro-text">
 				<div class="photo">
-					<a href="http://www.johnclarkemills.com/wp-content/uploads/2011/12/avatar.jpg" target="_blank" onclick="if (_gaq != undefined) { _gaq.push(['_trackEvent', 'Click', 'Avatar']); }">
+					<a href="http://www.johnclarkemills.com/wp-content/uploads/2011/12/avatar.jpg" target="_blank">
 						<img src="http://www.johnclarkemills.com/wp-content/uploads/2011/12/avatar-150x150.jpg" width="100" height="100" alt="John Clarke Mills" />
 					</a>
 				</div>
 				<h1>John Clarke Mills</h1>
 				<p>
 					Engineer, woodworker, <br/>mechanic, and maker of mistakes.  Co-founder of
-					&nbsp;<a target="_blank" onclick="if (_gaq != undefined) { _gaq.push(['_trackEvent', 'Click', 'Zenput']); }" href="https://www.zenput.com">Zenput</a>,
-					loving restorer of <a target="_blank" onclick="if (_gaq != undefined) { _gaq.push(['_trackEvent', 'Click', 'San Fran Vic']); }" href="http://www.sanfranvic.com">San Fran Vic</a>, Co-founder of the
-					<a target="_blank" onclick="if (_gaq != undefined) { _gaq.push(['_trackEvent', 'Click', 'Duck Pond']); }" href="http://duckpondcamp.org">Duck Pond</a>.<br />
+					&nbsp;<a target="_blank" href="https://www.zenput.com">Zenput</a>,
+					loving restorer of <a target="_blank" href="http://www.sanfranvic.com">San Fran Vic</a>, Co-founder of the
+					<a target="_blank" href="http://duckpondcamp.org">Duck Pond</a>.<br />
 				</p>
 				<div class="clearfloat"></div>
 				
 				<div id="social-networks">
-					<a class="icon mail-icon" onClick="var mail = 'john'; var addr = 'johnclarkemills.com'; $(this).attr('href', 'mailto:' + mail + '@' + addr); if (_gaq != undefined) { _gaq.push(['_trackEvent', 'Click', 'Email']); }" href="#"></a>
-					<a class="icon twitter-icon" target="_blank" onclick="if (_gaq != undefined) { _gaq.push(['_trackEvent', 'Click', 'Twitter']); }" href="http://twitter.com/johnclarkemills" alt="John Clarke Mills on Twitter"></a>
-					<a class="icon linkedin-icon" target="_blank" onclick="if (_gaq != undefined) { _gaq.push(['_trackEvent', 'Click', 'LinkedIn']); }" href="http://www.linkedin.com/in/johnclarkemills" alt="John Clarke Mills on LinkedIn"></a>
-					<a class="icon facebook-icon" target="_blank" onclick="if (_gaq != undefined) { _gaq.push(['_trackEvent', 'Click', 'Facebook']); }" href="http://www.facebook.com/johnclarkemills" alt="John Clarke Mills on Facebook"></a>
+					<a class="icon mail-icon" onClick="var mail = 'john'; var addr = 'johnclarkemills.com'; $(this).attr('href', 'mailto:' + mail + '@' + addr);" href="#"></a>
+					<a class="icon twitter-icon" target="_blank" href="http://twitter.com/johnclarkemills" alt="John Clarke Mills on Twitter"></a>
+					<a class="icon linkedin-icon" target="_blank" href="http://www.linkedin.com/in/johnclarkemills" alt="John Clarke Mills on LinkedIn"></a>
+					<a class="icon facebook-icon" target="_blank" href="http://www.facebook.com/johnclarkemills" alt="John Clarke Mills on Facebook"></a>
 					<!--<a rel="author" class="icon google-icon" target="_blank" onclick="if (_gaq != undefined) { _gaq.push(['_trackEvent', 'Click', 'Google']); }" href="https://plus.google.com/110523674200626115395" alt="John Clarke Mills on Google Plus"></a>-->
-					<a class="icon flickr-icon" target="_blank" onclick="if (_gaq != undefined) { _gaq.push(['_trackEvent', 'Click', 'Flickr']); }" href="http://www.flickr.com/people/johnclarkemills" alt="John Clarke Mills on Flickr"></a>
+					<a class="icon flickr-icon" target="_blank" href="http://www.flickr.com/people/johnclarkemills" alt="John Clarke Mills on Flickr"></a>
 				</div>
 			</span>
 			<div class="clearfloat"></div>
@@ -39,57 +39,15 @@
 			<div id="twitter-follow">
 				<a href="http://twitter.com/johnclarkemills" class="twitter-follow-button">Follow @johnclarkemills</a>
 			</div>
-            <script src="http://widgets.twimg.com/j/2/widget.js"></script>
-            <script>
-				var windowHeight = parseInt($(window).height());
-				if (windowHeight < 600) { numTweets = 4; } else if(windowHeight < 800) { numTweets = 4; } else { numTweets = 6; }
-				new TWTR.Widget({
-				  version: 2,
-				  type: 'profile',
-				  rpp: numTweets,
-				  interval: 6000,
-				  width: 325,
-				  height: 500,
-				  theme: {
-					shell: {
-					  background: '#ffffff',
-					  color: '#000000'
-					},
-					tweets: {
-					  background: '#ffffff',
-					  color: '#000000',
-					  links: '#2A642A'
-					}
-				  },
-				  features: {
-					scrollbar: false,
-					loop: false,
-					live: false,
-					hashtags: true,
-					timestamp: true,
-					avatars: false,
-					behavior: 'all'
-				  }
-				}).render().setUser('johnclarkemills').start();
-				$('#intro').fixedscroll({ container: $('#wrapper') });
-				
-				$(document).ready(function() {
-					$(function() {
-						$(".features").jCarouselLite({
-							btnNext: "#next-feature",
-							btnPrev: "#previous-feature",
-							auto: 10000,
-							speed: 1000
-						});
-					});
-				});
 			
-			</script>
+			<a class="twitter-timeline" height="350" href="https://twitter.com/johnclarkemills" data-chrome="noheader transparent noscrollbar" data-widget-id="356603510101536768">Tweets by @johnclarkemills</a>
+			<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+			
 			<div id="as-seen-in">
 				<div class="as-seen-in-head">
 					Featured Projects
-					<div id="next-feature" onclick="if (_gaq != undefined) { _gaq.push(['_trackEvent', 'Click', 'Next Feature']); }">&nbsp;</div>
-					<div id="previous-feature" onclick="if (_gaq != undefined) { _gaq.push(['_trackEvent', 'Click', 'Previous Feature']); }">&nbsp;</div>
+					<div id="next-feature">&nbsp;</div>
+					<div id="previous-feature">&nbsp;</div>
 				</div>
 				<div class="features">
 					<ul>
@@ -162,7 +120,6 @@
 				</div>
 			</div>
 		</aside>
-		<script src="http://platform.twitter.com/widgets.js" type="text/javascript"></script>
   		<?php wp_footer(); ?>
         <div class="clearfloat"></div>
 	</div>
